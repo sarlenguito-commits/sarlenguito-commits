@@ -3,7 +3,6 @@
 Me estoy formando como **Desarrollador Full Stack**, con foco en **Automatización con IA** e **IA Engineering**. Curso la carrera en Coderhouse y sigo estudiando por mi cuenta en paralelo.
 
 - 🌱 Actualmente cursando: Desarrollo Web (carrera Full Stack)
-- 🤖 Certificado en Automatización con IA
 - 📍 Neuquén, Argentina
 
 ---
@@ -26,7 +25,7 @@ Calculadora web de IMC, calorías y macros con recetas sugeridas según objetivo
 
 ### 📜 Certificaciones
 
-- **AI Automation** — Coderhouse (certificado por StudioChat) — 16/09/2026
+- [**AI Automation**](./certificado-ai-automation.pdf) — Coderhouse (certificado por StudioChat) — 16/09/2026
 
 ---
 
