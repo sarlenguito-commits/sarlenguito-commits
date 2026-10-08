@@ -19,6 +19,10 @@ Sistema de gestión para **bares y restaurantes**: programa de escritorio instal
 App web que usa todos los días el equipo de un pet shop con dos locales: tareas de limpieza por semana y turno, notas de cambio de turno, agenda de la dueña, pedidos a proveedores y de clientes, y notas compartidas (texto o listas para tildar). Datos en tiempo real, login por roles y reglas de seguridad propias.
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `GitHub Pages`
 
+**🚚 [DGT App · gestión de flota](https://github.com/sarlenguito-commits/dgt-app-demo)** · [ver demo](https://sarlenguito-commits.github.io/dgt-app-demo/) · *hecha para un cliente*
+App web para celular que lleva una flota de motos, camionetas y camiones: estado de cada vehículo, choferes por turno con sus recorridos, tareas para choferes y mecánicos, problemas con diagnóstico por tipo, stock de repuestos y avisos. Cuatro roles con permisos propios y más de 400 pruebas automáticas. La demo pública funciona en modo prueba, con datos inventados.
+`JavaScript` `SCSS` `Firebase Auth` `Firestore` `PWA`
+
 **🎮 [CS2database](https://github.com/sarlenguito-commits/CS2database)** · [ver web](https://cs2databasetnl.onrender.com)
 Plataforma tipo CRM de jugadores de CS2, con sync automático desde las APIs de FACEIT y Steam cada 4 h. Backend y frontend en Render, base de datos Postgres en Neon.
 `Node.js` `Postgres` `APIs REST` `Render`
@@ -26,6 +30,10 @@ Plataforma tipo CRM de jugadores de CS2, con sync automático desde las APIs de 
 **🤖 [Sistema de Scouting Automatizado — CS2](https://github.com/sarlenguito-commits/sistema-scouting-cs2)**
 Ecosistema de automatización con IA (n8n + Airtable + Gemini + WhatsApp) para reclutar jugadores de CS2, con punto de pausa humano (HITL) antes de acciones críticas. Proyecto final del curso de Automatización con IA: aprobado con 72 %.
 `n8n` `Airtable` `Gemini` `WhatsApp API`
+
+**📈 GORDOBoting** · *proyecto personal, repositorio privado*
+Bot de trading cripto (BTC, ETH, SOL y XRP) con estrategia de tendencia y control de volatilidad, backtests, carteras de simulación y testnet, asesor semanal de ETFs y dashboard propio. Corre solo todos los días como tarea programada.
+`Python` `ccxt (Binance)` `pandas` `Streamlit`
 
 **💸 [Mis Cuentas](https://github.com/sarlenguito-commits/cuentas)** · [ver app](https://sarlenguito-commits.github.io/cuentas/)
 App de finanzas personales para el celular: ingresos y gastos por categoría, saldo que pasa de mes a mes, gastos fijos que se repiten solos, gastos compartidos, calendario semanal, cierre y resumen de cada mes, y respaldo en JSON y Excel.
@@ -50,7 +58,7 @@ Calculadora web de IMC, calorías y macros, con recetas sugeridas según el obje
 ### 🛠️ Stack
 
 **Frontend:** `HTML` `CSS` `SCSS/Sass` `JavaScript` `TypeScript` `React` `Bootstrap`
-**Backend y datos:** `Node.js` `Firebase (Auth + Firestore)` `Postgres` `SQLite`
+**Backend y datos:** `Node.js` `Python` `Firebase (Auth + Firestore)` `Postgres` `SQLite`
 **Escritorio:** `Electron`
 **Automatización e IA:** `n8n` `Airtable` `Gemini`
-**Herramientas:** `Git/GitHub` `GitHub Pages` `Render` `Vite`
+**Herramientas:** `Git/GitHub` `GitHub Pages` `Render` `Vite` `Streamlit`
