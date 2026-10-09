@@ -11,9 +11,9 @@ Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy
 
 ### 🚀 Proyectos destacados
 
-**🍽️ Restix** · *software comercial, repositorio privado*<br>
-Sistema de gestión para **bares y restaurantes**: programa de escritorio instalable para Windows, con mesas, comandas a cocina, cobro con varios medios de pago y división de cuentas, tres cajas con cierre y arqueo, personal, Pedidos Ya/Delivery, PIN de administrador cifrado, copias de seguridad automáticas y licencias por equipo.<br>
-`Electron` `React` `TypeScript` `SQLite` `Vite`
+**🍽️ Restix** · *software comercial* · [muestra pública](https://github.com/sarlenguito-commits/restix-muestra) · [probarla](https://sarlenguito-commits.github.io/restix-muestra/)<br>
+Sistema de gestión para **bares y restaurantes**: programa de escritorio instalable para Windows, con mesas, comandas a cocina, cobro con varios medios de pago y división de cuentas, tres cajas con cierre y arqueo, personal, Pedidos Ya/Delivery, PIN de administrador cifrado, copias de seguridad automáticas y licencias por equipo. La muestra pública corre las mismas pantallas en el navegador, con un bar inventado y pruebas automáticas en GitHub Actions.<br>
+`Electron` `React` `TypeScript` `SQLite` `Vite` `Vitest`
 
 **🐾 [Mascota Market · Tareas](https://github.com/sarlenguito-commits/mascota-market)** · [ver app](https://sarlenguito-commits.github.io/mascota-market/) · *en uso real*<br>
 App web que usa todos los días el equipo de un pet shop con dos locales: tareas de limpieza por semana y turno, notas de cambio de turno, agenda de la dueña, pedidos a proveedores y de clientes, y notas compartidas (texto o listas para tildar). Datos en tiempo real, login por roles y reglas de seguridad propias.<br>
