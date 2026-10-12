@@ -19,8 +19,8 @@ Sistema de gestión para **bares y restaurantes**: programa de escritorio instal
 App web que usa todos los días el equipo de un pet shop con dos locales: tareas de limpieza por semana y turno, notas de cambio de turno, agenda de la dueña, pedidos a proveedores y de clientes, y notas compartidas (texto o listas para tildar). Datos en tiempo real, login por roles y reglas de seguridad propias.<br>
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `GitHub Pages`
 
-**🚚 [DGT App · gestión de flota](https://github.com/sarlenguito-commits/dgt-app-demo)** · [ver demo](https://sarlenguito-commits.github.io/dgt-app-demo/) · *hecha para un cliente*<br>
-App web para celular que lleva una flota de motos, camionetas y camiones: estado de cada vehículo, choferes por turno con sus recorridos, tareas para choferes y mecánicos, problemas con diagnóstico por tipo, stock de repuestos y avisos. Cuatro roles con permisos propios y más de 400 pruebas automáticas. La demo pública funciona en modo prueba, con datos inventados.<br>
+**🚚 DGT App · gestión de flota** · *hecha para un cliente, repositorio privado*<br>
+App web para celular que lleva una flota de motos, camionetas y camiones: estado de cada vehículo, choferes por turno con sus recorridos, tareas para choferes y mecánicos, problemas con diagnóstico por tipo, stock de repuestos y avisos. Cuatro roles con permisos propios y más de 400 pruebas automáticas.<br>
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `PWA`
 
 **🟢 [Sazzo · demos de software por rubro](https://github.com/sazzo-digital/sazzo-digital.github.io)** · [ver catálogo](https://sazzo-digital.github.io/) · *proyecto propio*<br>
