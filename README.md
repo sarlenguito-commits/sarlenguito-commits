@@ -23,7 +23,7 @@ App web que usa todos los días el equipo de un pet shop con dos locales: tareas
 App web para celular que lleva una flota de motos, camionetas y camiones: estado de cada vehículo, choferes por turno con sus recorridos, tareas para choferes y mecánicos, problemas con diagnóstico por tipo, stock de repuestos y avisos. Cuatro roles con permisos propios y más de 400 pruebas automáticas.<br>
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `PWA`
 
-**🟢 [Sazzo · demos de software por rubro](https://github.com/sazzo-digital/sazzo-digital.github.io)** · [ver catálogo](https://sazzo-digital.github.io/) · *proyecto propio*<br>
+**🟢 [Sazzo · demos de software por rubro](https://github.com/sazzo-digital/sazzo-digital.github.io)** · [sazzo.com.ar](https://sazzo.com.ar/) · *proyecto propio*<br>
 Catálogo con 7 demos de software para negocios (flota, kiosco, canchas, barbería, taller, perfumería y restaurante) que se abren desde un QR y se prueban con un toque, en modo prueba y con datos inventados. Cada demo se puede ver con los colores del negocio. Todas comparten un kit propio, con más de 300 pruebas automáticas y un registro de visitas sin datos personales.<br>
 `JavaScript` `SCSS` `Google Apps Script` `GitHub Pages`
 
