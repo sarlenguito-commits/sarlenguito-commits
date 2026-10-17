@@ -1,10 +1,11 @@
 ### ¡Hola! Soy Esteban 👋
 
-Me estoy formando como **Desarrollador Full Stack**, con foco en **Automatización con IA** e **IA Engineering**. Curso la carrera en Coderhouse y sigo estudiando por mi cuenta en paralelo.
+Soy **desarrollador de soluciones de software con IA** y **orquestador de agentes**: diseño qué tiene que resolver cada sistema, coordino a los modelos que lo construyen y verifico que funcione.
 
-Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy usan negocios y personas de verdad, automatizaciones con IA y software de gestión.
+Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy usan negocios y personas de verdad, automatizaciones con IA y software de gestión. Soy el fundador de **[Sazzo](https://sazzo.com.ar/)**, donde hago webs, apps y automatizaciones a medida para negocios.
 
-- 🌱 Actualmente cursando: Desarrollo Web (carrera Full Stack)
+- ✅ Terminé Desarrollo Web en Coderhouse (certificado, 16/10/2026)
+- 🌱 Actualmente: IA Automation Avanzado y AI Engineering
 - 📍 Neuquén, Argentina
 
 ---
@@ -24,7 +25,7 @@ App web para celular que lleva una flota de motos, camionetas y camiones: estado
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `PWA`
 
 **🟢 [Sazzo · demos de software por rubro](https://github.com/sazzo-digital/sazzo-digital.github.io)** · [sazzo.com.ar](https://sazzo.com.ar/) · *proyecto propio*<br>
-Catálogo con 7 demos de software para negocios (flota, kiosco, canchas, barbería, taller, perfumería y restaurante) que se abren desde un QR y se prueban con un toque, en modo prueba y con datos inventados. Cada demo se puede ver con los colores del negocio. Todas comparten un kit propio, con más de 300 pruebas automáticas y un registro de visitas sin datos personales.<br>
+Catálogo con 13 demos de software para negocios (flota, kiosco, canchas, barbería, taller, perfumería, restaurante, contable, librería, ferretería, carnicería, gimnasio e inmobiliaria) que se abren desde un QR y se prueban con un toque, en modo prueba y con datos inventados. Cada demo se puede ver con los colores del negocio. Todas comparten un kit propio, con más de 500 pruebas automáticas y un registro de visitas sin datos personales.<br>
 `JavaScript` `SCSS` `Google Apps Script` `GitHub Pages`
 
 **🎮 [CS2database](https://github.com/sarlenguito-commits/CS2database)** · [ver web](https://cs2databasetnl.onrender.com)<br>
@@ -43,7 +44,7 @@ Bot de trading cripto (BTC, ETH, SOL y XRP) con estrategia de tendencia y contro
 App de finanzas personales para el celular: ingresos y gastos por categoría, saldo que pasa de mes a mes, gastos fijos que se repiten solos, gastos compartidos, calendario semanal, cierre y resumen de cada mes, y respaldo en JSON y Excel.<br>
 `JavaScript` `SCSS` `localStorage`
 
-**🧁 [Poppy Pastelería](https://github.com/sarlenguito-commits/Poppy-Pasteleria-Web-)**<br>
+**🧁 [Poppy Pastelería](https://github.com/sarlenguito-commits/Poppy-Pasteleria-Web-)** · [ver web](https://poppy-pasteleria.netlify.app)<br>
 Sitio web estático de repostería artesanal para mascotas. Proyecto final del curso de Desarrollo Web.<br>
 `HTML5` `CSS3` `Grid` `Flexbox` `Bootstrap 5`
 
@@ -59,6 +60,7 @@ Calculadora de nivel FACEIT con su equivalencia estimada en CS2 Premier. Fue el 
 
 ### 📜 Certificaciones
 
+- [**Desarrollo Web**](./certificado-desarrollo-web.pdf) — Coderhouse (certificado por PedidosYa) — 16/10/2026
 - [**AI Automation**](./certificado-ai-automation.pdf) — Coderhouse (certificado por StudioChat) — 16/09/2026
 
 ---
