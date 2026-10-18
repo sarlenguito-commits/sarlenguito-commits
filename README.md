@@ -5,8 +5,32 @@ Soy **desarrollador de soluciones de software con IA** y **orquestador de agente
 Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy usan negocios y personas de verdad, automatizaciones con IA y software de gestión. Soy el fundador de **[Sazzo](https://sazzo.com.ar/)**, donde hago webs, apps y automatizaciones a medida para negocios.
 
 - ✅ Terminé Desarrollo Web en Coderhouse (certificado, 16/10/2026)
+- ✅ Terminé IA Automation (nivel inicial) en Coderhouse (certificado, 16/09/2026)
 - 🌱 Actualmente: IA Automation Avanzado y AI Engineering
 - 📍 Neuquén, Argentina
+
+---
+
+### 🧠 Proyecto principal: Abyss · IA local
+
+*Proyecto personal, en desarrollo · el código va a estar pronto en este perfil*
+
+**Abyss** es mi app para trabajar con **modelos de IA que corren en mi propia PC**, sin nube: elijo qué quiero hacer y Abyss arma el pedido, usa el modelo indicado y controla el resultado. Es donde pongo en práctica lo que estudio: el entorno de trabajo de los agentes (**harness**) y el **desarrollo guiado por especificaciones (SDD)**. Se construye por versiones a partir de una spec aprobada, y las decisiones de diseño se debaten entre dos familias de IA (Claude y Codex) antes de que yo decida.
+
+**Qué hace**
+- **5 acciones:** charlar, escribir, revisar, pensar y código. Cada una tiene su **ficha editable** (objetivo, reglas, formato, modelo, contexto, temperatura y si razona), con respaldo e historial.
+- **Verificador propio:** revisa las respuestas en vez de confiar en el modelo (por ejemplo, el control del voseo lo decide el verificador, no la IA).
+- **Varios modelos locales** (Gemma, Qwen, gpt-oss) con apodos: se eligen y se bajan desde la app, se comparan en un **duelo a ciegas** con votos y "Abyss elige" sugiere cuál usar.
+- **Memoria fija** y charlas guardadas en una **base SQLite** con esquema versionado y respaldos.
+- **Panel de recursos:** placa de video, RAM y procesador, diciendo siempre qué está **medido**, qué es **estimado** y qué se **desconoce**; al cerrar, libera la placa.
+- **Conexión con Claude en los dos sentidos:** un servidor **MCP** deja que los agentes de Claude la consulten y le hagan pedidos (sin poder borrar ni cambiar fichas), y "Mandar a Claude" le pasa una respuesta a una sesión.
+
+**Cómo está hecho**
+- Servidor Node cerrado: escucha solo en la PC, rechaza pedidos de otros sitios, usa clave de sesión, límites de tamaño y de cantidad y CSP estricta; lo que responde el modelo se muestra siempre como texto.
+- 33 pruebas automáticas con un Ollama falso, y una copia limpia para publicar sin datos personales.
+- Diseño propio: paneles plateados y una bestia animada que reacciona.
+
+`Node.js` `SQLite` `Ollama` `MCP` `JavaScript` `SCSS`
 
 ---
 
