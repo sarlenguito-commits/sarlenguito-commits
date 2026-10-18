@@ -47,7 +47,7 @@ Sitio web de repostería artesanal para perros y gatos, hecho a mano para aprend
 
 ### 🌱 Primeros proyectos
 
-Con los que aprendí a programar: [🎮 CS2database](https://github.com/sarlenguito-commits/CS2database) ([ver web](https://cs2databasetnl.onrender.com)), un CRM de jugadores de CS2 con las APIs de FACEIT y Steam · [🥗 Calculadora Saludable](https://github.com/sarlenguito-commits/calculadora-saludable) · [🎯 FACEIT Premier Checker](https://github.com/sarlenguito-commits/faceit-premier-checker)
+Mis comienzos en el desarrollo: [🎮 CS2database](https://github.com/sarlenguito-commits/CS2database) ([ver web](https://cs2databasetnl.onrender.com)), un CRM de jugadores de CS2 con las APIs de FACEIT y Steam · [🥗 Calculadora Saludable](https://github.com/sarlenguito-commits/calculadora-saludable) · [🎯 FACEIT Premier Checker](https://github.com/sarlenguito-commits/faceit-premier-checker)
 
 ---
 
