@@ -1,5 +1,7 @@
 ### ¡Hola! Soy Esteban 👋
 
+🇦🇷 Español · [🇬🇧 English version](https://github.com/sarlenguito-commits/sarlenguito-commits/blob/main/README.en.md)
+
 Soy **desarrollador de soluciones de software con IA** y **orquestador de agentes**: diseño qué tiene que resolver cada sistema, coordino a los modelos que lo construyen y verifico que funcione.
 
 Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy usan negocios y personas de verdad, automatizaciones con IA y software de gestión. Soy el fundador de **[Sazzo](https://sazzo.com.ar/)**, donde hago webs, apps y automatizaciones a medida para negocios.
