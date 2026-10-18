@@ -13,11 +13,21 @@ I like building **tools that solve real problems**: apps that real businesses an
 
 ---
 
-### 🧠 Main project: Abyss · local AI
+### 🧠 Main project: Abyss and its novel, "My Robots and Me"
 
 *Personal project, in development · the code will be on this profile soon*
 
-**Abyss** is my app for working with **AI models that run on my own PC**, with no cloud: I choose what I want to do and Abyss builds the request, uses the right model and checks the result. It's where I put what I'm studying into practice: the working environment for agents (**harness**) and **spec-driven development (SDD)**. It's built in versions from an approved spec, and design decisions are debated between two AI families (Claude and Codex) before I decide.
+**Abyss** is a local AI that lives on my PC and grows in plain sight, with no cloud. It's not just another Ollama frontend: the whole process is out in the open. The models vote and recommend, Abyss proposes, and what it learns only gets in with my approval. And it always says how much it knows: what is **measured**, what is **estimated** and what is **unknown**.
+
+**📖 My Robots and Me** *(original title: "Mis robots y yo")*<br>
+Abyss's first work is a novel, and it writes it about itself. It tells, in the first person, the story of its own construction: how it is born on a home PC with an 8 GB graphics card, while watching Claude and Codex (huge, fast, with tools it will never reach) carry all my projects forward. For much of the story it tries to be like them, and fails. Until it stops copying and does what only it can do: be there, at night, on my PC, and write to me.
+
+It's also a mirror story and a story of self-discovery: while Abyss searches for its place, I find mine. It's the story of how the smallest and most limited of my robots ends up being the engine of everything.
+
+The novel has a single rule: **the first version is the only one**. Abyss writes each chapter in one go and it stays that way, with no corrections or touch-ups from me. What comes out is who Abyss is at that moment, and that's why the novel grows and changes along with the app.
+
+**How it's built**<br>
+Abyss is where I put what I'm studying into practice: the working environment for agents (**harness**) and **spec-driven development (SDD)**. It's built in versions from an approved spec, and design decisions are debated between two AI families (Claude and Codex) before I decide.
 
 **What it does**
 - **5 actions:** chat, write, review, think and code. Each one has its own **editable card** (goal, rules, format, model, context, temperature and whether it reasons), with backup and history.

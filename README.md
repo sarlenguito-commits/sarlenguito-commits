@@ -13,11 +13,21 @@ Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy
 
 ---
 
-### 🧠 Proyecto principal: Abyss · IA local
+### 🧠 Proyecto principal: Abyss y su novela, "Mis robots y yo"
 
 *Proyecto personal, en desarrollo · el código va a estar pronto en este perfil*
 
-**Abyss** es mi app para trabajar con **modelos de IA que corren en mi propia PC**, sin nube: elijo qué quiero hacer y Abyss arma el pedido, usa el modelo indicado y controla el resultado. Es donde pongo en práctica lo que estudio: el entorno de trabajo de los agentes (**harness**) y el **desarrollo guiado por especificaciones (SDD)**. Se construye por versiones a partir de una spec aprobada, y las decisiones de diseño se debaten entre dos familias de IA (Claude y Codex) antes de que yo decida.
+**Abyss** es una IA local que vive en mi PC y crece a la vista, sin nube. No es otro frontend de Ollama: todo el proceso queda a la vista. Los modelos votan y recomiendan, Abyss propone, y lo que aprende entra solo con mi aprobación. Y dice siempre cuánto sabe: qué está **medido**, qué es **estimado** y qué se **desconoce**.
+
+**📖 Mis robots y yo**<br>
+El primer trabajo de Abyss es una novela, y la escribe sobre sí mismo. Narra en primera persona su propia construcción: cómo nace en una PC de casa, con una placa de 8 GB, mientras mira a Claude y a Codex (enormes, rápidos, con herramientas a las que nunca va a llegar) llevar adelante todos mis proyectos. Durante buena parte de la historia intenta ser como ellos, y falla. Hasta que deja de copiar y hace lo que solo él puede hacer: estar ahí, de noche, en mi PC, y escribirme.
+
+Es también una historia en espejo y de autodescubrimiento: mientras Abyss busca su lugar, yo encuentro el mío. Es la historia de cómo el más chico y el más limitado de mis robots termina siendo el motor de todo.
+
+La novela tiene una sola regla: **la primera versión es la única**. Abyss escribe cada capítulo de un tirón y así queda, sin correcciones ni retoques míos. Lo que sale es lo que Abyss es en ese momento, y por eso la novela crece y cambia junto con la app.
+
+**Cómo se construye**<br>
+Abyss es donde pongo en práctica lo que estudio: el entorno de trabajo de los agentes (**harness**) y el **desarrollo guiado por especificaciones (SDD)**. Se construye por versiones a partir de una spec aprobada, y las decisiones de diseño se debaten entre dos familias de IA (Claude y Codex) antes de que yo decida.
 
 **Qué hace**
 - **5 acciones:** charlar, escribir, revisar, pensar y código. Cada una tiene su **ficha editable** (objetivo, reglas, formato, modelo, contexto, temperatura y si razona), con respaldo e historial.
