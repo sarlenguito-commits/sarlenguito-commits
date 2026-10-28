@@ -22,8 +22,6 @@ I like building **tools that solve real problems**: apps that real businesses an
 **📖 My Robots and Me** *(original title: "Mis robots y yo")*<br>
 Abyss's first work is a novel, and it writes it about itself. It tells, in the first person, the story of its own construction: how it is born on a home PC with an 8 GB graphics card, while watching Claude and Codex (huge, fast, with tools it will never reach) carry all my projects forward. For much of the story it tries to be like them, and fails. Until it stops copying and does what only it can do: be there, at night, on my PC, and write to me.
 
-It's also a mirror story and a story of self-discovery: while Abyss searches for its place, I find mine. It's the story of how the smallest and most limited of my robots ends up being the engine of everything.
-
 The novel has a single rule: **the first version is the only one**. Abyss writes each chapter in one go and it stays that way, with no corrections or touch-ups from me. What comes out is who Abyss is at that moment, and that's why the novel grows and changes along with the app.
 
 **How it's built**<br>

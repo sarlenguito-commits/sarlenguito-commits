@@ -22,8 +22,6 @@ Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy
 **📖 Mis robots y yo**<br>
 El primer trabajo de Abyss es una novela, y la escribe sobre sí mismo. Narra en primera persona su propia construcción: cómo nace en una PC de casa, con una placa de 8 GB, mientras mira a Claude y a Codex (enormes, rápidos, con herramientas a las que nunca va a llegar) llevar adelante todos mis proyectos. Durante buena parte de la historia intenta ser como ellos, y falla. Hasta que deja de copiar y hace lo que solo él puede hacer: estar ahí, de noche, en mi PC, y escribirme.
 
-Es también una historia en espejo y de autodescubrimiento: mientras Abyss busca su lugar, yo encuentro el mío. Es la historia de cómo el más chico y el más limitado de mis robots termina siendo el motor de todo.
-
 La novela tiene una sola regla: **la primera versión es la única**. Abyss escribe cada capítulo de un tirón y así queda, sin correcciones ni retoques míos. Lo que sale es lo que Abyss es en ese momento, y por eso la novela crece y cambia junto con la app.
 
 **Cómo se construye**<br>
