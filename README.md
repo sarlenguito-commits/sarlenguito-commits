@@ -4,7 +4,7 @@
 
 Soy **desarrollador de soluciones de software con IA** y **orquestador de agentes**: diseño qué tiene que resolver cada sistema, coordino a los modelos que lo construyen y verifico que funcione.
 
-Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy usan negocios y personas de verdad, automatizaciones con IA y software de gestión. Soy el fundador de **[Sazzo](https://sazzo.com.ar/)**, donde hago webs, apps y automatizaciones a medida para negocios.
+Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy usan negocios y personas de verdad, automatizaciones con IA y software de gestión.
 
 - ✅ Terminé Desarrollo Web en Coderhouse (certificado, 16/10/2026)
 - ✅ Terminé IA Automation (nivel inicial) en Coderhouse (certificado, 16/09/2026)
@@ -13,42 +13,7 @@ Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy
 
 ---
 
-### 🧠 Proyecto principal: Abyss y su novela, "Mis robots y yo"
-
-*Proyecto personal, en desarrollo · el código va a estar pronto en este perfil*
-
-**Abyss** es una IA local que vive en mi PC y crece a la vista, sin nube. No es otro frontend de Ollama: todo el proceso queda a la vista. Los modelos votan y recomiendan, Abyss propone, y lo que aprende entra solo con mi aprobación. Y dice siempre cuánto sabe: qué está **medido**, qué es **estimado** y qué se **desconoce**.
-
-**📖 Mis robots y yo**<br>
-El primer trabajo de Abyss es una novela, y la escribe sobre sí mismo. Narra en primera persona su propia construcción: cómo nace en una PC de casa, con una placa de 8 GB, mientras mira a Claude y a Codex (enormes, rápidos, con herramientas a las que nunca va a llegar) llevar adelante todos mis proyectos. Durante buena parte de la historia intenta ser como ellos, y falla. Hasta que deja de copiar y hace lo que solo él puede hacer: estar ahí, de noche, en mi PC, y escribirme.
-
-La novela tiene una sola regla: **la primera versión es la única**. Abyss escribe cada capítulo de un tirón y así queda, sin correcciones ni retoques míos. Lo que sale es lo que Abyss es en ese momento, y por eso la novela crece y cambia junto con la app.
-
-**Cómo se construye**<br>
-Abyss es donde pongo en práctica lo que estudio: el entorno de trabajo de los agentes (**harness**) y el **desarrollo guiado por especificaciones (SDD)**. Se construye por versiones a partir de una spec aprobada, y las decisiones de diseño se debaten entre dos familias de IA (Claude y Codex) antes de que yo decida.
-
-**Qué hace**
-- **5 acciones:** charlar, escribir, revisar, pensar y código. Cada una tiene su **ficha editable** (objetivo, reglas, formato, modelo, contexto, temperatura y si razona), con respaldo e historial.
-- **Verificador propio:** revisa las respuestas en vez de confiar en el modelo (por ejemplo, el control del voseo lo decide el verificador, no la IA).
-- **Varios modelos locales** (Gemma, Qwen, gpt-oss) con apodos: se eligen y se bajan desde la app, se comparan en un **duelo a ciegas** con votos y "Abyss elige" sugiere cuál usar.
-- **Memoria fija** y charlas guardadas en una **base SQLite** con esquema versionado y respaldos.
-- **Panel de recursos:** placa de video, RAM y procesador, diciendo siempre qué está **medido**, qué es **estimado** y qué se **desconoce**; al cerrar, libera la placa.
-- **Conexión con Claude en los dos sentidos:** un servidor **MCP** deja que los agentes de Claude la consulten y le hagan pedidos (sin poder borrar ni cambiar fichas), y "Mandar a Claude" le pasa una respuesta a una sesión.
-
-**Cómo está hecho**
-- Servidor Node cerrado: escucha solo en la PC, rechaza pedidos de otros sitios, usa clave de sesión, límites de tamaño y de cantidad y CSP estricta; lo que responde el modelo se muestra siempre como texto.
-- 33 pruebas automáticas con un Ollama falso, y una copia limpia para publicar sin datos personales.
-- Diseño propio: paneles plateados y una bestia animada que reacciona.
-
-`Node.js` `SQLite` `Ollama` `MCP` `JavaScript` `SCSS`
-
----
-
 ### 🚀 Lo que hago hoy
-
-**🟢 [Sazzo · demos de software por rubro](https://github.com/sazzo-digital/sazzo-digital.github.io)** · [sazzo.com.ar](https://sazzo.com.ar/) · *mi empresa*<br>
-Catálogo con 13 demos de software para negocios (flota, kiosco, canchas, barbería, taller, perfumería, restaurante, contable, librería, ferretería, carnicería, gimnasio e inmobiliaria) que se abren desde un QR y se prueban con un toque, en modo prueba y con datos inventados. Cada demo se puede ver con los colores del negocio. Todas comparten un kit propio, con más de 500 pruebas automáticas y un registro de visitas sin datos personales.<br>
-`JavaScript` `SCSS` `Google Apps Script` `GitHub Pages`
 
 **🍽️ Restix** · *software comercial* · [muestra pública](https://github.com/sarlenguito-commits/restix-muestra) · [probarla](https://sarlenguito-commits.github.io/restix-muestra/)<br>
 Sistema de gestión para **bares y restaurantes**: programa de escritorio instalable para Windows, con mesas, comandas a cocina, cobro con varios medios de pago y división de cuentas, tres cajas con cierre y arqueo, personal, Pedidos Ya/Delivery, PIN de administrador cifrado, copias de seguridad automáticas y licencias por equipo. La muestra pública corre las mismas pantallas en el navegador, con un bar inventado y pruebas automáticas en GitHub Actions.<br>
@@ -65,6 +30,10 @@ App web para celular que lleva una flota de motos, camionetas y camiones: estado
 **🤖 [Sistema de Scouting Automatizado — CS2](https://github.com/sarlenguito-commits/sistema-scouting-cs2)**<br>
 Ecosistema de automatización con IA (n8n + Airtable + Gemini + WhatsApp) para reclutar jugadores de CS2, con punto de pausa humano (HITL) antes de acciones críticas. Proyecto final del curso de Automatización con IA: aprobado con 72 %.<br>
 `n8n` `Airtable` `Gemini` `WhatsApp API`
+
+**🧠 Abyss** · *proyecto personal, en desarrollo · el código va a estar pronto en este perfil*<br>
+IA local que vive en mi PC y crece a la vista, sin nube: los modelos votan, Abyss propone y lo que aprende entra solo con mi aprobación. Es donde practico el entorno de trabajo de los agentes (harness) y el desarrollo guiado por especificaciones (SDD). Su primer trabajo es una novela que escribe sobre sí misma.<br>
+`Node.js` `SQLite` `Ollama` `MCP` `JavaScript` `SCSS`
 
 ---
 
