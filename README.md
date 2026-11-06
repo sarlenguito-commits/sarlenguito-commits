@@ -14,6 +14,47 @@ Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy
 
 ---
 
+### 🧠 Proyecto destacado: Abyss
+
+*Proyecto personal, en desarrollo · laboratorio local de modelos en una GPU de 8 GB, medido · RAG con mis propios documentos en construcción*
+
+Abyss es el banco de pruebas donde estudio cómo se comportan los modelos de IA locales. Corre en mi PC con Ollama y es 100 % local con el interruptor ONLINE apagado. Es un frontend propio de Ollama, y lo que lo distingue es que **mide y dice qué mide**: cada número es *medido*, *estimado* o *desconocido*, desde los datos hasta la pantalla.
+
+**Lo que ya funciona**
+- Acciones de chat (charlar, revisar, pensar, código) con respuesta en vivo y botón de cancelar.
+- **Duelos a ciegas** entre modelos: dos respuestas, A y B, con los nombres ocultos hasta que voto. Con 10 o más votos, la recomendación sale de mis votos.
+- **Operación en 8 GB:** un pedido por vez, mide cuánta placa ocupa cada modelo, avisa antes si no entra y sugiere uno más chico, y descarga los modelos al cerrar.
+- **Memoria gobernada:** lo que genera entra "sin revisar" y solo pasa a su memoria cuando lo apruebo yo.
+- **Seguridad de una app local:** solo escucha en mi PC, rechaza pedidos de otros sitios, usa clave de sesión, límites y una política de seguridad estricta, con pruebas.
+- **Sin dependencias externas** en ejecución y 60 pruebas automáticas que corren en unos 30 segundos con un Ollama de mentira.
+
+**Los modelos** (Ollama, 18 instalados)
+- De uso diario: `gemma4:e4b` (para charlar, unos 84 tokens por segundo), `qwen3.5:4b` (el clasificador que decide qué modelo conviene usar, unos 80), `qwen3.5:9b` (para revisar, unos 56), `deepseek-r1:8b` (para pensar) y `qwen3-embedding:0.6b` (búsqueda por significado, que corre en el procesador).
+- Grandes, probados en la misma placa: `gpt-oss:20b`, `gemma4:26b` y `qwen3.6:35b`. No entran enteros en 8 GB y van entre 19 y 28 tokens por segundo.
+- Las velocidades las medí en octubre con otra versión de Ollama; las voy a volver a medir.
+
+**Lo que viene:** un RAG con mis propios documentos que corra local: cargarlos y trocearlos, citar la fuente y responder "no sé" cuando no hay dato, con un plan de medición definido antes de construir (30 a 50 preguntas, con un grupo reservado). Hoy lo que existe es la búsqueda por significado de notas cortas, no un RAG completo.<br>
+`Node.js` `SQLite` `Ollama` `MCP` `JavaScript` `SCSS`
+
+<details>
+<summary>🔧 Cómo vive Abyss por dentro</summary>
+
+- **Arranque:** un acceso directo abre Ollama si está cerrado, levanta un servidor Node oculto y abre Abyss en una ventana propia del navegador. Al cerrar la ventana, el servidor se apaga solo y descarga los modelos que usó.
+- **Servidor:** Node.js puro, sin librerías externas ni `package.json` (solo módulos propios de Node, con SQLite integrado). Escucha únicamente en mi PC, rechaza pedidos de otros sitios, usa una clave de sesión distinta en cada arranque, límites de tamaño y de cantidad y una política de seguridad estricta. Lo que responde el modelo se muestra como texto o escapado, nunca como HTML.
+- **Conexión con Ollama:** el servidor le habla por su API local: lista los modelos instalados, ve cuál está cargado en la placa, pide las respuestas en vivo (streaming), genera las huellas (embeddings) en el procesador y carga y descarga modelos con el contexto de cada ficha. Baja modelos nuevos solo de una lista fija y con un clic.
+- **ONLINE / OFFLINE:** arranca apagado. Prendido, sale a Wikipedia, Wikidata, el clima, los feriados, los links que pego y un metabuscador propio (SearXNG, en Docker) que reenvía la consulta a buscadores de internet; sale solo la consulta. Apagado, usa lo guardado y una Wikipedia local (Kiwix, en Docker), una copia de octubre.
+- **Del modelo a la pantalla:** el servidor reenvía lo que va generando el modelo en un flujo continuo y la ventana lo pinta a medida que llega.
+- **Front:** HTML, JavaScript por módulos sin frameworks y SCSS compilado a un solo archivo de estilos. Modo consola (ventanas negras translúcidas) y una bestia animada que reacciona.
+- **Fichas:** cada acción tiene su ficha editable (objetivo, reglas, formato, modelo, contexto, temperatura y tope de tokens), con la versión anterior guardada, y con ella el servidor arma el pedido a Ollama. Un verificador revisa el voseo.
+- **Medición:** lee la placa, la RAM y el procesador, y cada número dice si es medido, estimado o desconocido. Cuánto ocupa cada modelo se mide la primera vez; "entra / no entra" es una estimación.
+- **Datos:** una base SQLite con esquema versionado y respaldos completos que se verifican al restaurar.
+- **Conexión con Claude:** un servidor MCP con 5 herramientas deja que los agentes de Claude le hagan pedidos, sin poder borrar, cambiar fichas ni aceptar propuestas.
+- **Cómo se construyó:** con agentes de IA (Claude Code y Codex) a partir de una especificación que yo apruebo, por versiones, con 60 pruebas automáticas.
+
+</details>
+
+---
+
 ### 🚀 Lo que hago hoy
 
 En uso real hoy: **Mascota Market** (el equipo de un pet shop) y **DGT App** (la flota de un cliente). **Restix** es un producto propio en desarrollo. También automatizo procesos con agentes de IA en **n8n**.
@@ -34,10 +75,6 @@ App web para celular que lleva una flota de motos, camionetas y camiones: estado
 Ecosistema de automatización con IA (n8n + Airtable + Gemini + WhatsApp) para reclutar jugadores de CS2, con punto de pausa humano (HITL) antes de acciones críticas. Proyecto final del curso de Automatización con IA: aprobado con 72 %.<br>
 `n8n` `Airtable` `Gemini` `WhatsApp API`
 
-**🧠 Abyss** · *proyecto personal, en desarrollo · el código va a estar pronto en este perfil*<br>
-IA local que vive en mi PC, sin nube. Todo lo que genera entra "sin revisar" y solo pasa a su memoria cuando lo apruebo yo; los modelos se comparan en duelos a ciegas, donde voto cuál respondió mejor. Es donde practico el entorno de trabajo de los agentes (harness) y el desarrollo guiado por especificaciones (SDD). Su primer trabajo es una novela que escribe sobre sí misma.<br>
-`Node.js` `SQLite` `Ollama` `MCP` `JavaScript` `SCSS`
-
 ---
 
 ### 🔎 Mi línea de especialización: RAG
@@ -55,6 +92,8 @@ Quiero especializarme en **RAG** (generación aumentada por recuperación): que 
 
 **Lo que estoy aprendiendo ahora (AI Engineering):** embeddings y similitud, estrategias de chunking, bases vectoriales locales con **ChromaDB**, RAG escalable en la nube con **Pinecone**, recuperación híbrida, métricas de recuperación y observabilidad con **LangSmith** y **Arize Phoenix**.<br>
 `n8n` `LlamaCloud` `Supabase` `pgvector` `Gemini embeddings` `ChromaDB` `Pinecone`
+
+**Lo que viene:** llevar este trabajo a modelos locales en Abyss, con la especificación y el plan de medición escritos antes de construir.
 
 ---
 
@@ -111,7 +150,7 @@ Lo que tengo instalado y uso en mis proyectos y cursos.
 **Despliegue:** `GitHub Pages` `Firebase Hosting` `Netlify` `Render`
 **Herramientas:** `Git/GitHub` `GitHub CLI` `VS Code` `Live Server` `Prettier` `Error Lens` `SQLite Viewer` `REST Client` `Draw.io`
 **Estoy aprendiendo:** `LangChain` `LangGraph` `ChromaDB` `Pinecone` `FastAPI` `Redis`
-**Probando:** `Docker` y `WSL` (uso experimental), `Laravel` (un trabajo chico para ver cómo funciona) y `Godot` (tengo proyectos de juegos en mente)
+**Probando:** `Docker` (lo uso en Abyss para la Wikipedia local y el buscador propio) y `WSL` (uso experimental), `Laravel` (un trabajo chico para ver cómo funciona) y `Godot` (tengo proyectos de juegos en mente)
 
 ---
 
