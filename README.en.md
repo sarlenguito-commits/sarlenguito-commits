@@ -16,9 +16,9 @@ I like building **tools that solve real problems**: apps that real businesses an
 
 ### 🚀 What I do today
 
-In real use today: **Mascota Market** (a pet shop team) and **DGT App** (a client's fleet). **Restix** is commercial software. I also automate processes with AI agents in **n8n**.
+In real use today: **Mascota Market** (a pet shop team) and **DGT App** (a client's fleet). **Restix** is my own product, still in development. I also automate processes with AI agents in **n8n**.
 
-**🍽️ Restix** · *commercial software* · [public sample](https://github.com/sarlenguito-commits/restix-muestra) · [try it](https://sarlenguito-commits.github.io/restix-muestra/)<br>
+**🍽️ Restix** · *my own product, in development* · [public sample](https://github.com/sarlenguito-commits/restix-muestra) · [try it](https://sarlenguito-commits.github.io/restix-muestra/)<br>
 Management system for **bars and restaurants**: an installable Windows desktop program with tables, kitchen orders, payments with several methods and bill splitting, three cash registers with closing and reconciliation, staff, sales by channel (dine-in and PedidosYa/delivery), a protected admin PIN, automatic backups and per-device licenses. The public sample runs the same screens in the browser, with a made-up bar and automated tests on GitHub Actions.<br>
 `Electron` `React` `TypeScript` `SQLite` `Vite` `Vitest`
 
