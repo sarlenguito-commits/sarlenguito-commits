@@ -16,18 +16,18 @@ Me gusta construir **herramientas que resuelven problemas reales**: apps que hoy
 
 ### 🚀 Lo que hago hoy
 
-En uso real hoy: **Mascota Market** (el equipo de un pet shop, todos los días) y **DGT App** (la flota de un cliente). **Restix** es software comercial. También automatizo procesos con agentes de IA en **n8n**.
+En uso real hoy: **Mascota Market** (el equipo de un pet shop) y **DGT App** (la flota de un cliente). **Restix** es software comercial. También automatizo procesos con agentes de IA en **n8n**.
 
 **🍽️ Restix** · *software comercial* · [muestra pública](https://github.com/sarlenguito-commits/restix-muestra) · [probarla](https://sarlenguito-commits.github.io/restix-muestra/)<br>
-Sistema de gestión para **bares y restaurantes**: programa de escritorio instalable para Windows, con mesas, comandas a cocina, cobro con varios medios de pago y división de cuentas, tres cajas con cierre y arqueo, personal, Pedidos Ya/Delivery, PIN de administrador cifrado, copias de seguridad automáticas y licencias por equipo. La muestra pública corre las mismas pantallas en el navegador, con un bar inventado y pruebas automáticas en GitHub Actions.<br>
+Sistema de gestión para **bares y restaurantes**: programa de escritorio instalable para Windows, con mesas, comandas a cocina, cobro con varios medios de pago y división de cuentas, tres cajas con cierre y arqueo, personal, ventas por canal (salón y Pedidos Ya/Delivery), PIN de administrador protegido, copias de seguridad automáticas y licencias por equipo. La muestra pública corre las mismas pantallas en el navegador, con un bar inventado y pruebas automáticas en GitHub Actions.<br>
 `Electron` `React` `TypeScript` `SQLite` `Vite` `Vitest`
 
 **🐾 [Mascota Market · Tareas](https://github.com/sarlenguito-commits/mascota-market)** · [ver app](https://sarlenguito-commits.github.io/mascota-market/) · *en uso real*<br>
-App web que usa todos los días el equipo de un pet shop con dos locales: tareas de limpieza por semana y turno, notas de cambio de turno, agenda de la dueña, pedidos a proveedores y de clientes, y notas compartidas (texto o listas para tildar). Datos en tiempo real, login por roles y reglas de seguridad propias.<br>
+App web que usa el equipo de un pet shop con dos locales: tareas de limpieza por semana y turno, notas de cambio de turno, agenda de la dueña, pedidos a proveedores y de clientes, y notas compartidas (texto o listas para tildar). Datos en tiempo real, login por roles y reglas de seguridad propias.<br>
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `GitHub Pages`
 
 **🚚 DGT App · gestión de flota** · *hecha para un cliente, en uso, repositorio privado*<br>
-App web para celular que lleva una flota de motos, camionetas y camiones: estado de cada vehículo, choferes por turno con sus recorridos, tareas para choferes y mecánicos, problemas con diagnóstico por tipo, stock de repuestos y avisos. Cuatro roles con permisos propios y más de 3.000 pruebas automáticas: la lógica sin conexión, las pantallas en el navegador y las reglas de seguridad contra un emulador de Firebase.<br>
+App web para celular que lleva una flota de motos, camionetas y camiones: estado de cada vehículo, choferes por turno con sus recorridos, tareas para choferes y mecánicos, problemas con diagnóstico por tipo, stock de repuestos y avisos. Cinco roles con permisos propios y más de 3.000 pruebas automáticas: la lógica sin conexión, las pantallas en el navegador y las reglas de seguridad contra un emulador de Firebase.<br>
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `PWA`
 
 **🤖 [Sistema de Scouting Automatizado — CS2](https://github.com/sarlenguito-commits/sistema-scouting-cs2)**<br>

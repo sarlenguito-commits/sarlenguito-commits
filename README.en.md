@@ -16,18 +16,18 @@ I like building **tools that solve real problems**: apps that real businesses an
 
 ### 🚀 What I do today
 
-In real use today: **Mascota Market** (a pet shop team, every day) and **DGT App** (a client's fleet). **Restix** is commercial software. I also automate processes with AI agents in **n8n**.
+In real use today: **Mascota Market** (a pet shop team) and **DGT App** (a client's fleet). **Restix** is commercial software. I also automate processes with AI agents in **n8n**.
 
 **🍽️ Restix** · *commercial software* · [public sample](https://github.com/sarlenguito-commits/restix-muestra) · [try it](https://sarlenguito-commits.github.io/restix-muestra/)<br>
-Management system for **bars and restaurants**: an installable Windows desktop program with tables, kitchen orders, payments with several methods and bill splitting, three cash registers with closing and reconciliation, staff, PedidosYa/delivery, an encrypted admin PIN, automatic backups and per-device licenses. The public sample runs the same screens in the browser, with a made-up bar and automated tests on GitHub Actions.<br>
+Management system for **bars and restaurants**: an installable Windows desktop program with tables, kitchen orders, payments with several methods and bill splitting, three cash registers with closing and reconciliation, staff, sales by channel (dine-in and PedidosYa/delivery), a protected admin PIN, automatic backups and per-device licenses. The public sample runs the same screens in the browser, with a made-up bar and automated tests on GitHub Actions.<br>
 `Electron` `React` `TypeScript` `SQLite` `Vite` `Vitest`
 
 **🐾 [Mascota Market · Tasks](https://github.com/sarlenguito-commits/mascota-market)** · [see the app](https://sarlenguito-commits.github.io/mascota-market/) · *in real use*<br>
-A web app used every day by the team of a pet shop with two stores: cleaning tasks by week and shift, shift-change notes, the owner's schedule, supplier and customer orders, and shared notes (text or checklists). Real-time data, role-based login and custom security rules.<br>
+A web app used by the team of a pet shop with two stores: cleaning tasks by week and shift, shift-change notes, the owner's schedule, supplier and customer orders, and shared notes (text or checklists). Real-time data, role-based login and custom security rules.<br>
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `GitHub Pages`
 
 **🚚 DGT App · fleet management** · *built for a client, in use, private repository*<br>
-A mobile web app that manages a fleet of motorcycles, vans and trucks: status of each vehicle, drivers by shift with their routes, tasks for drivers and mechanics, problems with diagnosis by type, spare parts stock and alerts. Four roles with their own permissions and more than 3,000 automated tests: the logic offline, the screens in the browser and the security rules against a Firebase emulator.<br>
+A mobile web app that manages a fleet of motorcycles, vans and trucks: status of each vehicle, drivers by shift with their routes, tasks for drivers and mechanics, problems with diagnosis by type, spare parts stock and alerts. Five roles with their own permissions and more than 3,000 automated tests: the logic offline, the screens in the browser and the security rules against a Firebase emulator.<br>
 `JavaScript` `SCSS` `Firebase Auth` `Firestore` `PWA`
 
 **🤖 [Automated Scouting System — CS2](https://github.com/sarlenguito-commits/sistema-scouting-cs2)**<br>
