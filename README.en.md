@@ -35,7 +35,7 @@ An AI automation ecosystem (n8n + Airtable + Gemini + WhatsApp) to recruit CS2 p
 `n8n` `Airtable` `Gemini` `WhatsApp API`
 
 **🧠 Abyss** · *personal project, in development · the code will be on this profile soon*<br>
-A local AI that lives on my PC and grows in plain sight, with no cloud: the models vote, Abyss proposes, and what it learns only gets in with my approval. It's where I practice the working environment for agents (harness) and spec-driven development (SDD). Its first work is a novel it writes about itself.<br>
+A local AI that lives on my PC, with no cloud. Everything it generates goes in as "unreviewed" and only reaches its memory when I approve it; the models are compared in blind duels, where I vote for which one answered better. It's where I practice the working environment for agents (harness) and spec-driven development (SDD). Its first work is a novel it writes about itself.<br>
 `Node.js` `SQLite` `Ollama` `MCP` `JavaScript` `SCSS`
 
 ---

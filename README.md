@@ -35,7 +35,7 @@ Ecosistema de automatización con IA (n8n + Airtable + Gemini + WhatsApp) para r
 `n8n` `Airtable` `Gemini` `WhatsApp API`
 
 **🧠 Abyss** · *proyecto personal, en desarrollo · el código va a estar pronto en este perfil*<br>
-IA local que vive en mi PC y crece a la vista, sin nube: los modelos votan, Abyss propone y lo que aprende entra solo con mi aprobación. Es donde practico el entorno de trabajo de los agentes (harness) y el desarrollo guiado por especificaciones (SDD). Su primer trabajo es una novela que escribe sobre sí misma.<br>
+IA local que vive en mi PC, sin nube. Todo lo que genera entra "sin revisar" y solo pasa a su memoria cuando lo apruebo yo; los modelos se comparan en duelos a ciegas, donde voto cuál respondió mejor. Es donde practico el entorno de trabajo de los agentes (harness) y el desarrollo guiado por especificaciones (SDD). Su primer trabajo es una novela que escribe sobre sí misma.<br>
 `Node.js` `SQLite` `Ollama` `MCP` `JavaScript` `SCSS`
 
 ---
